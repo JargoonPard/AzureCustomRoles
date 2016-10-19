@@ -1,0 +1,21 @@
+{
+  "Name": "No Network Guy", 
+  "Id": "ad6cb110-0a50-45b5-a8b1-bd61ce7026df",
+  "IsCustom": true,
+  "Description": "Can do everythng except muck with Network stuff",
+  "Actions": [
+    "Microsoft.Compute/*",
+    "Microsoft.Network/*/read",
+    "Microsoft.Resources/subscriptions/resourceGroups/read",
+    "Microsoft.Resources/deployments/*",
+    "Microsoft.Storage/*"
+  ],
+  "NotActions": [
+    "Microsoft.Network/*/write",
+    "Microsoft.Network/*/delete",
+    "Microsoft.Network/*/action"
+  ],
+  "AssignableScopes": [
+    "/subscriptions/0b44b9a8-ee7f-4020-a239-8b498e6fd0a2"
+  ]
+}
