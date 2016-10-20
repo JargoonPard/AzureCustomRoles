@@ -1,0 +1,19 @@
+{
+    "Name": "NetworkRestrictedLabAdministrator",
+    "Id": "16b93171-2657-4886-be86-d7f8576fe70f",
+    "IsCustom": true,
+    "Description": "Administrator for a DevTest Labs without the ability to modify network settings",
+    "Actions": [
+        "*"
+    ],
+    "NotActions": [
+        "Microsoft.Authorization/*/Delete",
+        "Microsoft.Authorization/*/Write",
+        "Microsoft.Network/*/write",
+        "Microsoft.Network/*/delete",
+        "Microsoft.Network/*/action"
+    ],
+    "AssignableScopes": [
+        "/subscriptions/0b44b9a8-ee7f-4020-a239-8b498e6fd0a2"
+    ]
+}
