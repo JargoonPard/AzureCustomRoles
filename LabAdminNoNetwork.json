@@ -7,8 +7,6 @@
         "*"
     ],
     "NotActions": [
-        "Microsoft.Authorization/*/Delete",
-        "Microsoft.Authorization/*/Write",
         "Microsoft.Network/*/write",
         "Microsoft.Network/*/delete",
         "Microsoft.Network/*/action"
