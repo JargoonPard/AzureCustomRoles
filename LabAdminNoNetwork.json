@@ -7,9 +7,31 @@
         "*"
     ],
     "NotActions": [
-        "Microsoft.Network/*/write",
-        "Microsoft.Network/*/delete",
-        "Microsoft.Network/*/action"
+        "Microsoft.Network/register/*/action",
+        "Microsoft.Network/dnszones/*/write",
+        "Microsoft.Network/dnszones/*/delete",
+        "Microsoft.Network/publicIPAddresses/*/write",
+        "Microsoft.Network/publicIPAddresses/*/delete",
+        "Microsoft.Network/publicIPAddresses/*/action",
+        "Microsoft.Network/networkWatchers/*/write",
+        "Microsoft.Network/networkWatchers/*/delete",
+        "Microsoft.Network/loadBalancers/*/write",
+        "Microsoft.Network/loadBalancers/*/delete",
+        "Microsoft.Network/loadBalancers/*/action",
+        "Microsoft.Network/virtualNetworks/*/write",
+        "Microsoft.Network/virtualNetworks/*/delete",
+        "Microsoft.Network/virtualNetworks/*/action",
+        "Microsoft.Network/trafficManagerProfiles/*/write",
+        "Microsoft.Network/trafficManagerProfiles/*/delete",
+        "Microsoft.Network/networkSecurityGroups/*/write",
+        "Microsoft.Network/networkSecurityGroups/*/delete",
+        "Microsoft.Network/networkSecurityGroups/*/action",
+        "Microsoft.Network/applicationGateways/*/write",
+        "Microsoft.Network/applicationGateways/*/delete",
+        "Microsoft.Network/applicationGateways/*/action",
+        "Microsoft.Network/routeTables/*/write",
+        "Microsoft.Network/routeTables/*/delete",
+        "Microsoft.Network/routeTables/*/action"
     ],
     "AssignableScopes": [
         "/subscriptions/0b44b9a8-ee7f-4020-a239-8b498e6fd0a2"
